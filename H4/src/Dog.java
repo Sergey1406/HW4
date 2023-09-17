@@ -6,7 +6,6 @@ public class Dog extends Animal {
 
     @Override
     public void run(int distance) {
-        int dist = distance;
         if (distance > 500)
             distance = 500;
 
@@ -15,7 +14,6 @@ public class Dog extends Animal {
 
     @Override
     public void swim(int distance) {
-        int dist = distance;
         if (distance > 10)
             distance = 10;
 
