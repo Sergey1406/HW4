@@ -6,7 +6,6 @@ public class Cat extends Animal {
 
     @Override
     public void run(int distance) {
-        int dist = distance;
         if (distance > 200)
             distance = 200;
 
