@@ -8,11 +8,11 @@ public class Animal {
     }
 
     public void run(int distance) {
-        System.out.println(" біжить" + " " + distance + " " + "м");
+        System.out.println("Тварина біжить" + " " + distance + " " + "м");
     }
 
     public void swim(int distance) {
-        System.out.println(distance);
+        System.out.println("Тварина пливе" + " " + distance + " " + "м");
     }
 
 
