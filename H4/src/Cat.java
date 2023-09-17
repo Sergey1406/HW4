@@ -12,6 +12,11 @@ public class Cat extends Animal {
         System.out.println("Котик біжить" + " " + distance + " " + "м");
     }
 
+        @Override
+    public void swim(int distance) {
+        System.out.println("Котик не вміє плавати");
+    }
+
 
     public static void main(String[] args) {
     }
